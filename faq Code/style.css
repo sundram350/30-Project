@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;    
+    background-color: rgb(214, 184, 241);
+
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    background-color: aliceblue;
+    border-radius: 20px;
+    top: 30%;
+    position: absolute;
+    border: 2px solid tomato;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    overflow: hidden;
+}
+.box1 .para{
+    overflow: hidden;
+    font-size: 12px;
+    
+}
+.box1 h1{    
+    font-size: 40px;
+    padding-left: 30px;    
+}
+.box1 .que{
+    background-color: antiquewhite;    
+    display: flex;   
+}
+.box1 button{
+    margin-left: 30px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(169, 126, 209);
+    color: white;
+    font-weight: 900;
+}
+.box2{
+    background-color: aliceblue;
+    border-radius: 20px;
+    top: 30%;
+    position: absolute;
+    border: 2px solid tomato;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    overflow: hidden;
+}
+.box2 .para{
+    overflow: hidden;
+    font-size: 12px;
+    
+}
+
+.box2 .que{
+    background-color: antiquewhite;    
+    display: flex;   
+}
+.box2 button{
+    margin-left: 30px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(169, 126, 209);
+    color: white;
+    font-weight: 900;
+}
+.box3{
+    background-color: aliceblue;
+    border-radius: 20px;
+    top: 30%;
+    position: absolute;
+    border: 2px solid tomato;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    overflow: hidden;
+}
+.box3 .para{
+    overflow: hidden;
+    font-size: 12px;
+    
+}
+
+.box3 .que{
+    background-color: antiquewhite;    
+    display: flex;   
+}
+.box3 button{
+    margin-left: 30px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(169, 126, 209);
+    color: white;
+    font-weight: 900;
+}
+.box4{
+    background-color: aliceblue;
+    border-radius: 20px;
+    top: 30%;
+    position: absolute;
+    border: 2px solid tomato;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    overflow: hidden;
+}
+.box4 .para{
+    overflow: hidden;
+    font-size: 12px;
+    
+}
+
+.box4 .que{
+    background-color: antiquewhite;    
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+ 
+}
+.box4 button{
+    width:  100px;
+    margin-left: 30px;
+    border-radius: 50%;
+    height: 100px;
+    background-color: rgb(169, 126, 209);
+    color: white;
+    font-weight: 900;
+}
+
+
+@media (max-width: 600px) {
+    .box1{
+        background-color: aliceblue;
+        border-radius: 20px;
+        top: 10%;
+        position: absolute;
+        border: 2px solid tomato;
+        width: 90%;
+        height: 80%;
+        padding: 10px;
+        /* overflow: hidden; */
+    }
+    .inner-box1 .para{
+        overflow: hidden;
+        font-size: 20px;
+        
+    }
+    .box1 h5{
+        font-size: 22px;
+    }
+    .box1 h1{    
+        font-size: 40px;
+        padding-left: 30px;    
+    }
+    .box1 .que{
+        background-color: antiquewhite;    
+        display: flex;   
+    }
+    .box1 button{
+        margin-left: 30px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        background-color: rgb(169, 126, 209);
+        color: white;
+        font-weight: 900;
+    }
+    .box2{
+        background-color: aliceblue;
+        border-radius: 20px;
+        top: 10%;
+        position: absolute;
+        border: 2px solid tomato;
+        width: 90%;
+        height: 80%;
+        padding: 10px;
+        /* overflow: hidden; */
+    }
+    .box2 .para{
+        overflow: hidden;
+        font-size: 20px;
+        
+    }
+    .box2 h5{
+        font-size: 22px;
+    }
+    
+    .box2 .que{
+        background-color: antiquewhite;    
+        display: flex;   
+    }
+    .box2 button{
+        margin-left: 30px;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        background-color: rgb(169, 126, 209);
+        color: white;
+        font-weight: 900;
+    } 
+     .box3{
+        background-color: aliceblue;
+        border-radius: 20px;
+        top: 10%;
+        position: absolute;
+        border: 2px solid tomato;
+        width: 90%;
+        height: 80%;
+        padding: 10px;
+        /* overflow: hidden; */
+    }
+    .box3 .para{
+        overflow: hidden;
+        font-size: 20px;
+        
+    }
+    .box3 h5{
+        font-size: 22px;
+    }
+    .box3 .que{
+        background-color: antiquewhite;    
+        display: flex;   
+    }
+    .box3 button{
+        margin-left: 30px;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        background-color: rgb(169, 126, 209);
+        color: white;
+        font-weight: 900;
+    }  .box4{
+        background-color: aliceblue;
+        border-radius: 20px;
+        top: 10%;
+        position: absolute;
+        border: 2px solid tomato;
+        width: 90%;
+        height: 80%;
+        padding: 10px;
+        /* overflow: hidden; */
+    }
+    .box4 .para{
+        overflow: hidden;
+        font-size: 20px;
+        
+    }
+    .box4 h5{
+        font-size: 22px;
+    }
+    .box4 .que{
+        background-color: antiquewhite;    
+        display: flex;   
+    }
+    .box4 button{
+        margin-left: 30px;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        background-color: rgb(169, 126, 209);
+        color: white;
+        font-weight: 900;
+    }
+}
+@media (min-width:601px) and ( max-width: 800px) {
+    .box1{
+        background-color: aliceblue;
+        border-radius: 20px;
+        top: 10%;
+        position: absolute;
+        border: 2px solid tomato;
+        width: 90%;
+        height: 80%;
+        padding: 10px;
+        /* overflow: hidden; */
+    }
+    .inner-box1 .para{
+        overflow: hidden;
+        font-size: 25px;
+        
+    }
+    .box1 h5{
+        font-size: 30px;
+    }
+    .box1 h1{    
+        font-size: 45px;
+        padding-left: 30px;    
+    }
+    .box1 .que{
+        background-color: antiquewhite;    
+        display: flex;   
+    }
+    .box1 button{
+        margin-left: 30px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        background-color: rgb(169, 126, 209);
+        color: white;
+        font-weight: 900;
+    }
+    .box2{
+        background-color: aliceblue;
+        border-radius: 20px;
+        top: 10%;
+        position: absolute;
+        border: 2px solid tomato;
+        width: 90%;
+        height: 80%;
+        padding: 10px;
+        /* overflow: hidden; */
+    }
+    .box2 .para{
+        overflow: hidden;
+        font-size: 20px;
+        
+    }
+    .box2 h5{
+        font-size: 22px;
+    }
+    
+    .box2 .que{
+        background-color: antiquewhite;    
+        display: flex;   
+    }
+    .box2 button{
+        margin-left: 30px;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        background-color: rgb(169, 126, 209);
+        color: white;
+        font-weight: 900;
+    } 
+     .box3{
+        background-color: aliceblue;
+        border-radius: 20px;
+        top: 10%;
+        position: absolute;
+        border: 2px solid tomato;
+        width: 90%;
+        height: 80%;
+        padding: 10px;
+        /* overflow: hidden; */
+    }
+    .box3 .para{
+        overflow: hidden;
+        font-size: 20px;
+        
+    }
+    .box3 h5{
+        font-size: 22px;
+    }
+    .box3 .que{
+        background-color: antiquewhite;    
+        display: flex;   
+    }
+    .box3 button{
+        margin-left: 30px;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        background-color: rgb(169, 126, 209);
+        color: white;
+        font-weight: 900;
+    }  .box4{
+        background-color: aliceblue;
+        border-radius: 20px;
+        top: 10%;
+        position: absolute;
+        border: 2px solid tomato;
+        width: 90%;
+        height: 80%;
+        padding: 10px;
+        /* overflow: hidden; */
+    }
+    .box4 .para{
+        overflow: hidden;
+        font-size: 20px;
+        
+    }
+    .box4 h5{
+        font-size: 22px;
+    }
+    .box4 .que{
+        background-color: antiquewhite;    
+        display: flex;   
+    }
+    .box4 button{
+        margin-left: 30px;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        background-color: rgb(169, 126, 209);
+        color: white;
+        font-weight: 900;
+    }
+}
